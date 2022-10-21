@@ -1,0 +1,13 @@
+{
+  "name": "Pashword",
+  "description": "Pashword",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Pashword",
+    "default_popup": "index.html",
+    "default_icon": {
+      "128": "vercel.svg"
+    }
+  }
+}
