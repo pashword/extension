@@ -14,11 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const savedSecretKey = result.secretKey || "";
     const savedPasswordLength = result.passwordLength || 12;
     if (!savedSecretKey) {
-      alert("Please set a secret key first!");
+      return;
     } else if (!savedPasswordLength) {
-      alert("Please set a password length first!");
+      return;
     } else if (!savedSecretKey || !savedPasswordLength) {
-      console.log("Could not find all required elements");
       return;
     }
 
@@ -47,3 +46,5 @@ document.addEventListener("DOMContentLoaded", function () {
     alert("Settings saved successfully!");
   });
 });
+
+export {};
