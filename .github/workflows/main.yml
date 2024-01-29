@@ -41,7 +41,7 @@ jobs:
           
       - name: get-version
         id: get_version
-        run: echo "{version}=$(jq -r .version manifest.json)" >> "$GITHUB_ENV"
+        run: echo "VERSION=$(jq -r .version manifest.json)" >> "$GITHUB_ENV"
           
       - name: create-release
         id: create_release
