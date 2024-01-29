@@ -4,9 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply overflow-hidden bg-transparent;
+}
 body {
   font-family: "Poppins", sans-serif;
-  @apply bg-slate-950;
+  @apply bg-slate-950 overflow-hidden rounded-xl;
 }
 
 @layer components {

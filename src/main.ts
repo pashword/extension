@@ -12,7 +12,7 @@ app.innerHTML = `
     </div>
     <div class="flex flex-col gap-1 w-full">
       <label for="password-length" class="input-label">Pashword Length</label>
-      <input type="number" id="password-length" placeholder="Enter password length" class="input-text">
+      <input type="number" max="99" min="11" default-value="20" id="password-length" placeholder="11 to 99" class="input-text">
     </div>
     <button id="save-settings" class="submit-button">Save Settings</button>
   </div>
