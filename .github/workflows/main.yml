@@ -38,10 +38,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-
-      - name: Set release name
-        run: |
-          export VERSION=$(jq -r .version package.json)
+          
+      - name: get-version
+        id: get_version
+        run: echo "{version}=$(jq -r .version manifest.json)" >> "$GITHUB_ENV"
           
       - name: create-release
         id: create_release
