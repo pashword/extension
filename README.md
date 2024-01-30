@@ -1,7 +1,7 @@
 # 🔐 Pashword - Browser Extension
 
-<img width="430" alt="image" src="https://github.com/pashword/extension/assets/25067102/3150ef06-b45e-464a-bc49-e84620dc2c19">
-<img width="469" alt="image" src="https://github.com/pashword/extension/assets/25067102/0f462566-cae3-455f-9dab-23edcf2cc629">
+<img width="300" alt="image" src="https://github.com/pashword/extension/assets/25067102/3150ef06-b45e-464a-bc49-e84620dc2c19">
+<img width="300" alt="image" src="https://github.com/pashword/extension/assets/25067102/0f462566-cae3-455f-9dab-23edcf2cc629">
 
 
 # Installation
